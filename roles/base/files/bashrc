@@ -1,0 +1,8 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+alias scenario="clear;cat ~/.scenario.txt"
